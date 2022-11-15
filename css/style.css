@@ -1,0 +1,26 @@
+.gallery{
+    border: 3px solid black;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #F8F9F9;
+
+
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery img{
+    width:100%;
+    border: 10px double #D60E0E;
+    padding: 8px;
+    border-radius: 45%;
+}
+
+.gallery img:hover{
+    width:100%;
+    border: 5px dashed #FFCA00;
+    padding: 5px;
+    border-radius: 0%;
+}
